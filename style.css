@@ -12,7 +12,7 @@ ul {
 
 
 .heading {
-    background-color: #043382;
+    background-color: #424874;
     color: white;
     padding: 10px;
     display: flex;
@@ -48,8 +48,7 @@ ul {
 .sidebar {
     position: absolute;
     height: fit-content;
-    background-color: rgb(22, 21, 21);
-    color: white;
+    background-color: #A6B1E1;
     padding: 10px;
     margin-left: 20px;
     max-width: 175px;
@@ -67,20 +66,11 @@ ul {
 .image {
     height: 150px;
     width: 150px;
-    border: 5px solid #043382;
+    border: 5px solid #424874;
     border-radius: 100%;
     z-index: 2;
 }
 
-
-
-.parallelogram {
-    width: 200px;
-    height: 100%;
-    transform: skew(-20deg);
-    background: #042b6b;
-    margin-left: 10px;
-}
 
 .main {
     position: absolute;
@@ -96,11 +86,10 @@ ul {
 }
 
 .main>* {
-    background-color: #CC5500;
-    color: white;
+    background-color: #EAEAEA;
     padding: 50px;
     max-width: 200px;
-
+    border-radius: 50px;
 }
 
 
