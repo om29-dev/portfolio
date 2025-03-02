@@ -76,7 +76,6 @@ ul {
     position: absolute;
     left: 225px;
     top: 150px;
-    right: 0px;
     padding-left: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
