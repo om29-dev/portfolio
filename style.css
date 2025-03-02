@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -13,7 +17,7 @@ ul {
 
 
 .heading {
-    background-color: #71C9CE;
+    background-color: #141E61;
     color: white;
     padding: 10px;
     display: flex;
@@ -49,11 +53,12 @@ ul {
 .sidebar {
     position: absolute;
     height: fit-content;
-    background-color: #A6B1E1;
+    background-color: #7886C7;
     padding: 10px;
     margin-left: 20px;
     max-width: 175px;
     top: 0px;
+    color: white;
 }
 
 .photo {
@@ -67,7 +72,7 @@ ul {
 .image {
     height: 150px;
     width: 150px;
-    border: 5px solid #71C9CE;
+    border: 5px solid #141E61;
     border-radius: 100%;
     z-index: 2;
 }
@@ -77,14 +82,20 @@ ul {
     left: 225px;
     top: 150px;
     padding-left: 20px;
+    right: 0px;
+    padding-top: 10px;
+    right: 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     grid-auto-flow: row;
     gap: 20px 20px;
+    min-width: 275px;
+    padding-bottom: 20px;
 }
 
 .main>* {
-    background-color: #EAEAEA;
+    background-color: #787A91;
     padding: 20px;
     border-radius: 50px;
+    color: white;
 }
